@@ -2,6 +2,8 @@
 #include <fstream>
 #include "nlohmann/json.hpp"
 
+//This code is distributed by Rytis Augustauskas in https://github.com/rytisss/SimpleConfigurationCpp
+
 using json = nlohmann::json;
 
 class SimpleConfiguration {
