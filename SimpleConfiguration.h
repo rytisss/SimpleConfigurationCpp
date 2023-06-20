@@ -1,3 +1,6 @@
+#ifndef SIMPLECONFIGURATION_H
+#define SIMPLECONFIGURATION_H
+
 #include <iostream>
 #include <fstream>
 #include "nlohmann/json.hpp"
@@ -98,3 +101,5 @@ public:
         return (configJson.find(key) != configJson.end());
     }
 };
+
+#endif //SIMPLECONFIGURATION_H
